@@ -30,3 +30,21 @@
     sans-serif;
   font-weight: 700;
 }
+
+
+
+
+
+%roomers-button {
+  width: 166px;
+  height: 166px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000;
+}
