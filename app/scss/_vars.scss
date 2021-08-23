@@ -1,0 +1,32 @@
+// $accent: #EA7022;
+// $black: #262A2D;
+// $bg: #F2F2F2;
+
+// %checkbox-hidden {
+//   width: 1px;
+//   height: 1px;
+//   overflow: hidden;
+//   clip: rect(0 0 0 0);
+//   position: absolute;
+// }
+
+%sfuitext {
+  font-family: 'SFUIText-Regular',
+    sans-serif;
+  font-weight: 400;
+}
+%proxima-nova {
+  font-family: 'ProximaNova-Regular',
+    sans-serif;
+  font-weight: 400;
+}
+%helvetica-400 {
+  font-family: 'HelveticaNeueCyr-Roman',
+    sans-serif;
+  font-weight: 400;
+}
+%helvetica-700 {
+  font-family: 'HelveticaNeueCyr-Bold',
+    sans-serif;
+  font-weight: 700;
+}
