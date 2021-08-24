@@ -36,10 +36,6 @@
   font-weight: 700;
 }
 
-
-
-
-
 %roomers-button {
   width: 166px;
   height: 166px;
@@ -52,4 +48,12 @@
   font-size: 17px;
   line-height: 21px;
   color: #000;
+}
+
+%checkbox-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
 }

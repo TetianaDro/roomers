@@ -1,3 +1,11 @@
+$(function(){
+
+  $('.select').styler ();
+
+
+});
+
+
 mySwiper = new Swiper ('.new-event__slider', {
       navigation: {
         nextEl: '.swiper-button-next',
@@ -11,7 +19,7 @@ mySwiper = new Swiper ('.new-event__slider', {
       spaceBetween: 30,
   });
 
-  
+
 mySwiper = new Swiper ('.new-arrived__slider', {
       navigation: {
         nextEl: '.swiper-button-next',
@@ -50,3 +58,4 @@ mySwiper = new Swiper ('.brands__slider', {
       slidesPerView: 1,
       spaceBetween: 30,
   });
+
