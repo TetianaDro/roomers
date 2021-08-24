@@ -13,15 +13,15 @@
 
   <header class="header">
     <div class="container">
-      <div class="header__top">
-        <a class="header__top-logo logo" href="#">
+      <div class="header__inner">
+        <a class="header__logo logo" href="#">
           <img class="logo__img" src="images/logo.svg" alt="logo">
         </a>
-        <div class="header__top-search search">
+        <div class="header__search search">
           <img class="search__img" src="images/icons/search.svg" alt="search icon">
           <input class="search__input" type="text" placeholder="Поиск...">
         </div>
-        <div class="header__top-nav">
+        <div class="header__nav">
           <div class="user-nav">
             <a class="user-nav__link" href="#">
               <img class="user-nav__link-img" src="images/icons/cart.svg" alt="cart icon">
@@ -97,7 +97,7 @@
         </div>
       </div>
     </section>
-    <section class="new-event">
+     <section class="new-event">
       <div class="container">
         <div class="new-event__slider swiper-container">
           <div class="new-event__wrapper swiper-wrapper">
@@ -117,7 +117,7 @@
                     Вашего дома!
                   </p>
                 </div>
-              </div>  
+              </div>
             </div>
             <div class="new-event__slide swiper-slide">
               <div class="new-event__slide-content">
@@ -157,6 +157,7 @@
             </div>
           </div>
         </div>
+        <div class="new-event-pagination swiper-pagination"></div>
         <div class="new-event__arrows">
           <div class="new-event__arrow swiper-button-prev">
             <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -275,6 +276,7 @@
               </div>
             </div>
           </div>
+          <div class="new-arrived__pagination swiper-pagination"></div>
           <div class="new-arrived__arrow swiper-button-prev">
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M6.03223 1L1 6.03223L6.03223 11.0645" stroke="black" />
@@ -291,7 +293,120 @@
         </a>
       </div>
     </section>
+    <section class="brands">
+      <div class="container">
+        <h2 class="brands__title title">
+          БРЕНДЫ
+        </h2>
+        <p class="brands__subtitle">
+          Наше портфолио - лучшее собрание мировых брендов мебели, посуды, декора.
+        </p>
+        <div class="brands__slider swiper-container">
+          <div class="brands__wrapper swiper-wrapper">
+            <div class="brands__slide swiper-slide">
+              <div class="brands__slide-content">
+                <img class="brands__slide-img" src="images/brands-bg.jpg" alt="image">
+                <div class="brands__slide-description">
+                  <h4 class="brands__slide-title">
+                    italesse
+                  </h4>
+                  <p class="brands__slide-subtitle">
+                    Последние поступление новой коллекции кресел от известного бренда
+                  </p>
+                  <a class="brands__slide-link" href="#">
+                    Cтраница бренда
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="brands__slide swiper-slide">
+              <div class="brands__slide-content">
+                <img class="brands__slide-img" src="images/brands-bg.jpg" alt="image">
+                <div class="brands__slide-description">
+                  <h4 class="brands__slide-title">
+                    italesse
+                  </h4>
+                  <p class="brands__slide-subtitle">
+                    Последние поступление новой коллекции кресел от известного бренда
+                  </p>
+                  <a class="brands__slide-link" href="#">
+                    Cтраница бренда
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="brands__slide swiper-slide">
+              <div class="brands__slide-content">
+                <img class="brands__slide-img" src="images/brands-bg.jpg" alt="image">
+                <div class="brands__slide-description">
+                  <h4 class="brands__slide-title">
+                    italesse
+                  </h4>
+                  <p class="brands__slide-subtitle">
+                    Последние поступление новой коллекции кресел от известного бренда
+                  </p>
+                  <a class="brands__slide-link" href="#">
+                    Cтраница бренда
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="brands__pagination swiper-pagination"></div>
+        </div>
+        <div class="brands__arrows">
+          <div class="brands__arrow swiper-button-prev">
+            <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13 6.21364L2.70251 6.21364L6.43929 9.99092L5.44102 11L-4.80825e-07 5.5L5.44102 4.78005e-07L6.43929 1.00908L2.70251 4.78636L13 4.78636L13 6.21364Z"
+                fill="white" />
+            </svg>
+          </div>
+          <div class="brands__arrow swiper-button-next">
+            <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M-5.35237e-07 6.21364L10.2975 6.21364L6.56071 9.99092L7.55898 11L13 5.5L7.55898 4.78005e-07L6.56071 1.00908L10.2975 4.78636L-4.10461e-07 4.78636L-5.35237e-07 6.21364Z"
+                fill="white" />
+            </svg>
+          </div>
+        </div>
+        <a class="brands__button" href="#">
+          Все бренды
+        </a>
+      </div>
+    </section>
+    <section class="insta">
+      <div class="container">
+        <h2 class="insta__title title">
+          INSTA SPIRATION
+        </h2>
+        <div class="insta__gallery">
+          <div class="insta__gallery-item">
+            <img class="insta__gallery-img" src="images/insta/1.jpg" alt="img">
+          </div>
+          <div class="insta__gallery-item">
+            <img class="insta__gallery-img" src="images/insta/2.jpg" alt="img">
+          </div>
+          <div class="insta__gallery-item">
+            <img class="insta__gallery-img" src="images/insta/3.jpg" alt="img">
+          </div>
+          <div class="insta__gallery-item">
+            <img class="insta__gallery-img" src="images/insta/4.jpg" alt="img">
+          </div>
+          <div class="insta__gallery-item">
+            <img class="insta__gallery-img" src="images/insta/5.jpg" alt="img">
+          </div>
+          <div class="insta__gallery-item">
+            <img class="insta__gallery-img" src="images/insta/6.jpg" alt="img">
+          </div>
+        </div>
+        <a class="insta__button" href="#">
+          <img class="insta__button-img" src="images/icons/plus.svg"plus">
+        </a>
+      </div>
+    </section>
   </main>
+
   <footer class="footer">
     <div class="container">
       <div class="footer__wrapper">

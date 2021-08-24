@@ -2,9 +2,18 @@
   font-family: 'SFUIText-Regular';
   font-weight: 400;
   font-style: normal;
-  src: local('Montserrat-Medium'),
+  src: local('SFUIText-Regular'),
     url('../fonts/SFUIText-Regular.woff2') format('woff2'),
     url('../fonts/SFUIText-Regular.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFUIText-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('SFUIText-Bold'),
+    url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+    url('../fonts/SFUIText-Bold.woff') format('woff');
   font-display: swap;
 }
 @font-face {
